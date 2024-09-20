@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chuyển đổi Dương lịch sang Âm lịch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <h1>Chuyển đổi Dương lịch sang Âm lịch</h1>
+        <div class="input-group">
+            <label for="solarDate">Ngày Dương lịch:</label>
+            <input type="date" id="solarDate" placeholder="Chọn ngày Dương lịch">
+        </div>
+        <button onclick="convertToLunar()">Chuyển đổi</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
